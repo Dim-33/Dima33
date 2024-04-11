@@ -17,11 +17,11 @@ header {
     width: 60px;
     height: 60px;
     margin-right: 214px;
-    background-image: url('W.png');
+    background-image: url(images/Vector.png);
 }
 
 .W {
-    position: absolute;
+    position: relative;
     top: 13.51px;
     right: 14px;
 }
