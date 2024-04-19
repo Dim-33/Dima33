@@ -3,6 +3,11 @@
     src: url('fonts/proximanova_regular.ttf');
 }
 
+@font-face {
+  font-family: "Proxima Nova ligt";
+  src: url('fonts/proximanova_light.otf');
+}
+
 body {
   
     width: 1920px;
@@ -293,3 +298,135 @@ body {
     opacity: 1;
   }
 
+
+  #about, #price {
+    width: 1076px;
+    height: 1024px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-family: El Messiri;
+    font-weight: 700;
+
+  }
+
+  #price {
+    width: 614px;
+  }
+
+  .about_wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+  }
+
+  .massage, .hydro {
+    width: 100%;
+    line-height: 22.4px;
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .text {
+    font-family: Proxima nova ligt;
+    width: 466px;
+    height: 366px;
+    display: flex;
+    font-display: column;
+    align-items: center;
+  }
+
+  .bgi {
+    width: 526px;
+    height: 325px;
+    background-image: url(images/Rectangle\ 23.png);
+  
+  }
+
+  .hydro .bgi {
+    height: 400px;
+    background-image: url(images/Rectangle\ 24.png);
+  
+  }
+
+  .price_wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .pricelist {
+    list-style-image: url(images/Rectangle\ 27.png);
+  }
+
+  .pricelist li {
+    box-sizing: border-box;
+    padding-left: 20px;
+    width: 416px;
+    margin-bottom: 31px;
+    font-family: Proxima nova;
+    font-weight: 400;
+    font-style: 18px;
+    line-height: 25.2;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+  }
+
+  li div {
+    width: 368px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  li span {
+    font-weight: 700;
+    font-family: El Messiri;
+
+  }
+
+  .gift {
+    display: flex;
+    font-display: column;
+    align-items: center;
+
+  }
+
+  .gift div {
+    width: 526px;
+    height: 396px;
+    margin-bottom: 30px;
+    background-image: url(images/unsplash_M3fhZSBFoFQ.png);
+
+  }
+
+  h4 {
+    margin: 0;
+    font-family: El Messiri;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 29.4px;
+    text-align: center;
+
+  }
+
+  footer {
+    width: 1296px;
+    height: 604px;
+    margin: 150px avto ;
+    display: flex;
+    justify-content: space-between;
+
+  }
